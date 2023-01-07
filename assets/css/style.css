@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 230px;
+  padding-right: 200px;
 }
 .banner-content {
   width: 30%;
@@ -32,6 +32,7 @@ body {
   text-transform: capitalize;
 }
 .banner-content p {
+  font-size: 16px;
   line-height: 28px;
   margin: 24px 0 32px;
 }
@@ -48,4 +49,29 @@ body {
 }
 .btn-primary:hover {
   background-color: #975c8d;
+}
+
+/* Mission statement CSS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+section {
+  padding: 100px 0;
+}
+.mission-content {
+  text-align: center;
+  padding: 0 250px;
+}
+.mission-content h2 {
+  color: #975c8d;
+  font-size: 40px;
+}
+.mission-content span {
+  color: #d989b5;
+}
+.mission-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 24px 0 32px;
 }
