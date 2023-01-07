@@ -75,3 +75,30 @@ section {
   line-height: 28px;
   margin: 24px 0 32px;
 }
+/* Failures CSS */
+.previous-recordes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.previous-recordes .recordes {
+  width: 40%;
+  margin: 0 auto;
+  padding-right: 160px;
+}
+.previous-recordes .recordes h2 {
+  color: #975c8d;
+  font-size: 40px;
+}
+.previous-recordes .recordes p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 24px 0 16px;
+}
+.previous-recordes .recordes ul li {
+  list-style: none;
+}
+.previous-recordes .recordes ul li i {
+  color: #d989b5;
+  margin-right: 10px;
+}
