@@ -102,3 +102,25 @@ section {
   color: #d989b5;
   margin-right: 10px;
 }
+/* My plans CSS */
+.my-plans h2 {
+  color: #975c8d;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.plan-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.my-plans .plan-items h3 {
+  font-size: 22px;
+  color: #282a3a;
+  margin: 20px 0;
+}
+.my-plans .plan-items img {
+  width: 30%;
+}
